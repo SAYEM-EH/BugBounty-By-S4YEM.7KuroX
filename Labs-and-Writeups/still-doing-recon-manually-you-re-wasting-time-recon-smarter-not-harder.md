@@ -148,15 +148,10 @@ Now you can quickly see:
 
 - Status codes 
 
-- 
-
 - Page titles 
-
-- 
 
 - Technologies used 
 
-- 
 
 ### **Step 3: Check Archived URLs** 
 
@@ -172,11 +167,7 @@ These old URLs can lead to:
 
 - Legacy APIs 
 
-- 
-
 - Hidden endpoints 
-
-- 
 
 - Deprecated features 
 
@@ -202,13 +193,9 @@ These can lead to:
 
 - IDOR 
 
-- 
-
 - Open Redirect 
 
 - SSRF 
-
-- 
 
 - LFI 
 
@@ -304,9 +291,7 @@ That way:
 
 2. Start recon 
 
-   - Grab coffee ☕ 
-
-3. 
+3. Grab coffee ☕
 
 4. Come back to organized results 
 

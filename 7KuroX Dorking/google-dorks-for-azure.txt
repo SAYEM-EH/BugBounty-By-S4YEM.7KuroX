@@ -1,0 +1,6 @@
+filetype:env "AZURE_CLIENT_SECRET"
+filetype:env "AZURE_CLIENT_ID"
+filetype:env "AZURE_KEY"
+filetype:json "azure" "clientSecret"
+inurl:blob.core.windows.net
+site:blob.core.windows.net intitle:"Index of"

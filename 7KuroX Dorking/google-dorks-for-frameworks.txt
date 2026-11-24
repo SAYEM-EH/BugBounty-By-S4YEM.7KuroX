@@ -1,0 +1,9 @@
+filetype:env "NEXT_PUBLIC_"
+filetype:env "NEXT_"
+inurl:.next/
+"NEXT_PUBLIC_" filetype:env
+filetype:env "REACT_APP_"
+"REACT_APP_" filetype:env
+inurl:react "api_key"
+filetype:env "ANGULAR_"
+filetype:json "angular" "apiKey"

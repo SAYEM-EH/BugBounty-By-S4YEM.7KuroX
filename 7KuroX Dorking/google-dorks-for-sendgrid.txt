@@ -1,0 +1,5 @@
+filetype:env "SENDGRID_API_KEY"
+filetype:env "SENDGRID_KEY"
+filetype:env "SENDGRID_PASSWORD"
+filetype:json "sendgrid" "api_key"
+"SG." "api_key"

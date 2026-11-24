@@ -1,0 +1,4 @@
+filetype:json "google" "private_key"
+filetype:json "gcp" "credentials"
+filetype:env "GOOGLE_APPLICATION_CREDENTIALS"
+inurl:storage.googleapis.com

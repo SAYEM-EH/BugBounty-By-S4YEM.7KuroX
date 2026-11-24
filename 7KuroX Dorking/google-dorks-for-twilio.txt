@@ -1,0 +1,4 @@
+filetype:env "TWILIO_AUTH_TOKEN"
+filetype:env "TWILIO_API_KEY"
+filetype:env "TWILIO_ACCOUNT_SID"
+filetype:json "twilio" "auth_token"

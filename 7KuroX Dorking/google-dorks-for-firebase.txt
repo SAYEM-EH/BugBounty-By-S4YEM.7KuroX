@@ -1,0 +1,6 @@
+filetype:json "firebase" "apiKey"
+filetype:json "firebase" "private_key"
+filetype:json "firebase" "serviceAccount"
+"firebase" "apiKey" filetype:json
+"firebase" "private_key"
+inurl:firebase "apiKey"

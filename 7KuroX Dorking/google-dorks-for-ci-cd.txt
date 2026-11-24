@@ -1,0 +1,6 @@
+filetype:env "CIRCLE_TOKEN"
+filetype:env "CIRCLE_CI_TOKEN"
+filetype:yaml "circleci" "token"
+filetype:env "TRAVIS_TOKEN"
+filetype:yaml ".travis.yml"
+inurl:.travis.yml

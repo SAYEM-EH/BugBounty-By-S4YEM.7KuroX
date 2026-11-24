@@ -1,0 +1,6 @@
+filetype:env "SLACK_TOKEN"
+filetype:env "SLACK_API_TOKEN"
+filetype:env "SLACK_WEBHOOK"
+filetype:json "slack" "token"
+"xoxb-"
+"xoxp-"

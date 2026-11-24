@@ -1,0 +1,83 @@
+site:example.com inurl:login
+
+inurl:wp-login
+inurl:login
+inurl:user-login
+inurl:signin
+inurl:sign-in
+inurl:auth
+inurl:authentication
+
+inurl:"/wp-login.php?action=lostpassword"
+
+inurl:& intext:admin intext:login
+
+site:password.*.* intitle:"login"
+site:portal.*.* intitle:"login"
+site:user.*.* intitle:"login"
+site:sftp.*.* intitle:"login"
+site:admin.*.* intitle:"login"
+
+"Joomla! Administration Login" inurl:"/index.php"
+intext:Joomla inurl:index.php/login
+inurl:/administrator/index.php
+
+inurl:/administrator/index.php?autologin=1
+
+intitle:"Grafana" inurl:"/login"
+intitle:"Grafana" "Forgot your password"
+inurl:login "Welcome to Grafana"
+
+intitle:"Kibana" inurl:"/login"
+intitle:"Elastic" inurl:"/login"
+
+intitle:"Jenkins" inurl:"/login"
+intitle:"Jenkins" "Sign in"
+
+intitle:"GitLab" inurl:"/users/sign_in"
+intitle:"GitHub Enterprise" inurl:"/login"
+
+intitle:"Keycloak" inurl:"/auth"
+intitle:"Keycloak" "Account Management"
+
+inurl:/auth/login
+inurl:/auth/signin
+inurl:/oauth/login
+inurl:/oauth/authorize
+inurl:/oauth2/login
+
+inurl:/login.jsp
+inurl:/admin/login.jsp
+inurl:/carbon/admin/login.jsp
+
+inurl:/webvpn.html "login"
+inurl:/remote/login
+inurl:/vpn/login
+intitle:"SSL VPN" "Login"
+
+inurl:/portal/login
+inurl:/account/login
+inurl:/customer/account/login
+inurl:/user/account/login
+
+inurl:/servicedesk/customer/user/login
+inurl:/pro_users/login
+inurl:/eftclient/account/login.htm
+
+inurl:"/?q=user/password/"
+inurl:"/user/reset"
+
+inurl:/phpmyadmin
+inurl:/phpmyadmin/index.php
+inurl:/phpmyadmin/user_password.php
+
+intitle:"Admin Panel" inurl:login
+intitle:"Dashboard Login"
+
+"login" "user" "password"
+
+intext:"IMail Server Web Messaging" intitle:"login"
+intext:"HostingAccelerator" intitle:"login" +"Username" -"news" -demo
+
+"Login Pages" "inurl:login"
+"Please sign in" "login"

@@ -1,0 +1,4 @@
+filetype:env "COHERE_API_KEY"
+filetype:env "COHERE_KEY"
+filetype:json "cohere" "api_key"
+"cohere" "api_key"

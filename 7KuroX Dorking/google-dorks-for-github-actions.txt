@@ -1,0 +1,4 @@
+inurl:.github/workflows
+filetype:yml ".github/workflows"
+filetype:yaml ".github/workflows"
+inurl:.github/workflows "secrets"

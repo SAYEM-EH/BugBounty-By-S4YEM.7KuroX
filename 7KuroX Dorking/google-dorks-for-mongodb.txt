@@ -1,0 +1,5 @@
+filetype:env "MONGODB_URI"
+filetype:env "MONGO_URI"
+filetype:env "MONGODB_PASSWORD"
+"mongodb://" "password"
+"mongodb+srv://"

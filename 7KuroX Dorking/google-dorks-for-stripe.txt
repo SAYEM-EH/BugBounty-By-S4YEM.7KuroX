@@ -1,0 +1,8 @@
+filetype:env "STRIPE_SECRET_KEY"
+filetype:env "STRIPE_API_KEY"
+filetype:env "STRIPE_PUBLISHABLE_KEY"
+filetype:env "STRIPE_SECRET"
+filetype:json "stripe" "secret"
+"sk_live"
+"sk_test"
+inurl:stripe.com "api_key"

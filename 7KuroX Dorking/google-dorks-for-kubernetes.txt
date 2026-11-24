@@ -1,0 +1,6 @@
+inurl:/metrics
+inurl:/healthz
+inurl:/readyz
+inurl:/actuator
+inurl:/actuator/env
+inurl:/actuator/health

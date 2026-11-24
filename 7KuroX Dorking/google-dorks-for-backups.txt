@@ -1,0 +1,73 @@
+# ===============================
+# GENERIC BACKUPS
+# ===============================
+
+inurl:backup
+inurl:backups
+inurl:backup.zip
+inurl:backup.rar
+inurl:backup.tar
+inurl:backup.tar.gz
+inurl:backup.sql
+inurl:database.sql
+inurl:dump.sql
+
+inurl:backup filetype:sql
+inurl:save filetype:sql
+
+# ===============================
+# WEBSITE / WEBROOT BACKUPS
+# ===============================
+
+inurl:web.zip
+inurl:website.zip
+inurl:site.zip
+inurl:www.zip
+inurl:public_html.zip
+inurl:html.zip
+
+# ===============================
+# FILE EXTENSIONS
+# ===============================
+
+filetype:bak
+filetype:old
+filetype:backup
+filetype:orig
+filetype:tmp
+filetype:swp
+filetype:abk
+
+# ===============================
+# DATABASE BACKUPS
+# ===============================
+
+filetype:sql
+filetype:sql password
+filetype:sql username
+filetype:db
+filetype:sqlite
+filetype:sqlite3
+
+# ===============================
+# CLOUD / CI / MODERN STACKS
+# ===============================
+
+inurl:docker-backup
+inurl:db-backup
+inurl:backup-db
+
+inurl:jenkins-backup
+inurl:gitlab-backup
+inurl:ci-backup
+
+# ===============================
+# DIRECTORY LISTING
+# ===============================
+
+intitle:"Index of" backup
+intitle:"Index of" backups
+intitle:"Index of" dump
+intitle:"Index of" database
+
+inurl:backup "Parent Directory"

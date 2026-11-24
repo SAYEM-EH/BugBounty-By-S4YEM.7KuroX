@@ -1,0 +1,120 @@
+# ===============================
+# CONFIG / SECRETS / ENV
+# ===============================
+
+inurl:.env
+filetype:env "PASSWORD"
+filetype:env "SECRET"
+filetype:env "API_KEY"
+filetype:env "TOKEN"
+
+inurl:config.php "DB_PASSWORD"
+inurl:config.php "DB_USER"
+inurl:config.php password
+inurl:config.php secret
+
+inurl:settings.php password
+inurl:configuration.php password
+
+"BEGIN RSA PRIVATE KEY"
+"BEGIN OPENSSH PRIVATE KEY"
+filetype:pem "PRIVATE KEY"
+
+# ===============================
+# CLOUD / CI / DEVOPS
+# ===============================
+
+filetype:env "AWS_ACCESS_KEY_ID"
+filetype:env "AWS_SECRET_ACCESS_KEY"
+
+filetype:json "service_account" "private_key"
+site:storage.googleapis.com intitle:"Index of"
+site:s3.amazonaws.com intitle:"Index of"
+
+intitle:"Jenkins" inurl:/login
+intitle:"GitLab" inurl:/users/sign_in
+intitle:"Grafana" inurl:/login
+intitle:"Kibana" inurl:/login
+
+# ===============================
+# BACKUPS / DUMPS
+# ===============================
+
+inurl:backup
+inurl:backups
+filetype:zip backup
+filetype:tar backup
+filetype:gz backup
+
+filetype:sql
+filetype:sql password
+inurl:dump.sql
+inurl:database.sql
+
+# ===============================
+# LOGS / DEBUG
+# ===============================
+
+filetype:log
+filetype:log password
+filetype:log "Authorization:"
+filetype:log "Set-Cookie"
+
+inurl:debug.log
+inurl:error.log
+"Fatal error" "on line"
+"Exception" "stack trace"
+
+# ===============================
+# ADMIN / LOGIN / AUTH
+# ===============================
+
+inurl:login
+inurl:signin
+inurl:admin/login
+inurl:auth/login
+intitle:"Admin Login"
+
+inurl:& intext:admin intext:login
+
+# ===============================
+# API / SWAGGER / GRAPHQL
+# ===============================
+
+inurl:swagger.json
+inurl:openapi.json
+inurl:api-docs
+
+inurl:/graphql
+intitle:"GraphQL Playground"
+inurl:/graphiql
+
+# ===============================
+# DIRECTORY LISTING
+# ===============================
+
+intitle:"Index of" ".env"
+intitle:"Index of" "config"
+intitle:"Index of" "backup"
+intitle:"Index of" ".git"
+
+# ===============================
+# SOURCE / CODE LEAKS
+# ===============================
+
+inurl:.git/config
+inurl:.git/HEAD
+filetype:map "webpack://"
+
+filetype:xml "password"
+filetype:xml "secret"
+hostname user password filetype:xml
+
+# ===============================
+# FRAMEWORK / MISC
+# ===============================
+
+inurl:Makefile.toml
+inurl:docker-compose.yml
+filetype:yml password
+filetype:yaml secret
